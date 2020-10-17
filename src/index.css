@@ -1,0 +1,29 @@
+// includes dom controlBar day week month event
+
+div.calendar {
+	user-select: none;
+	height: 100%;
+
+	div.calendar-wrapper {
+		position: relative;
+		overflow: auto;
+		width: 100%;
+		height: 94%;
+
+		table.calendar-table {
+			width: 100%;
+			height: 100%;
+
+			div.today, td.today {
+				background-color: blue;
+			}
+
+			td {
+				max-width: 0;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+		}
+	}
+}

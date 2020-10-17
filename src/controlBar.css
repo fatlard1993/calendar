@@ -1,0 +1,28 @@
+div.calendar {
+	div.control-bar {
+		height: 5%;
+		margin-bottom: 1%;
+
+		button {
+			display: inline-block;
+			padding: 6px 8px;
+			margin: 0;
+
+			&.left {
+				float: left;
+				margin-left: 5px;
+			}
+
+			&.right {
+				float: right;
+				margin-right: 5px;
+			}
+		}
+
+		div.title {
+			text-align: center;
+			font-size: 3vw;
+			line-height: 2vw;
+		}
+	}
+}

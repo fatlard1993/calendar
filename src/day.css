@@ -1,0 +1,22 @@
+div.calendar.day {
+	div.time-block {
+		height: 3em;
+		cursor: pointer;
+		color: black;
+		background-color: #666;
+
+		&:nth-child(odd) {
+			background-color: #999;
+		}
+
+		&:last-of-type{
+			border-bottom: none;
+		}
+
+		span.time {
+			font-size: 12px;
+			margin: 2px;
+			pointer-events: none;
+		}
+	}
+}

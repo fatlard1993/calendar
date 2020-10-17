@@ -1,0 +1,37 @@
+div.calendar.month {
+	tr.title {
+		font-size: 1.3em;
+		height: 1.3em;
+		color: black;
+		background-color: #999;
+
+		td {
+			text-align: center;
+		}
+	}
+
+	td.day-cell {
+		position: relative;
+		border-collapse: collapse;
+		vertical-align: top;
+		background-color: #777;
+		cursor: pointer;
+
+		span.day-title {
+			display: block;
+			font-size: 1em;
+			padding: 2px;
+			background-color: rgba(0, 0, 0, 0.1);
+			color: black;
+			cursor: pointer;
+		}
+
+		&.not-in-month {
+			background: #222;
+
+			span.day-title {
+				color: #666;
+			}
+		}
+	}
+}
