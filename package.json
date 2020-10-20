@@ -27,6 +27,7 @@
 	},
 	"dependencies": {
 		"log": "github:fatlard1993/log",
-		"dom": "github:fatlard1993/dom"
+		"dom": "github:fatlard1993/dom",
+		"lang": "github:fatlard1993/lang"
 	}
 }
