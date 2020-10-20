@@ -1,6 +1,6 @@
 {
 	"name": "calendar",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "src/index.js",
 	"mainCss": "src/index.css",
 	"description": "A simple calendar",
