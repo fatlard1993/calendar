@@ -1,7 +1,6 @@
 import Log from 'log';
 import dom from 'dom';
-import lang from 'lang';
-import lang_en from '_lang_en-US';
+import lang from 'lang/index';
 import CalendarEvent from 'calendarEvent';
 
 class Calendar {
